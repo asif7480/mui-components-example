@@ -12,6 +12,7 @@ import Example4ToggleButton from "./Components/Example4ToggleButton"
 import Example5TextField from "./Components/Example5TextField"
 import Example6Select from "./Components/Example6Select"
 import Example7RadioButtons from "./Components/Example7RadioButtons"
+import Form from "./Components/Form"
 
 function App() {
   
@@ -31,7 +32,7 @@ function App() {
       <hr />
       <Example7RadioButtons />  
       <hr /> */}
-      <Example12Box />
+      {/* <Example12Box />
       <hr />
       <Example13Stack />
       <hr />
@@ -43,7 +44,9 @@ function App() {
       <hr />
       <Example17ImageList />
       <hr />
-      <Example18Navbar />
+      <Example18Navbar /> */}
+      <hr />
+      <Form />
     </>
   )
 }
